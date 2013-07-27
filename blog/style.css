@@ -3,7 +3,7 @@ p
   	color:black;
   }
 
-  h2 {
+  h1 {
   	color:blue;
   }
 
@@ -15,6 +15,16 @@ p
     position:relative;
     background-color: transparent;
     width: 500px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .para2 {
+    position: absolute;
+  }
+
+  .para3{
+    position: relative;
   }
 
 .menu {
@@ -30,4 +40,5 @@ p
 img {
   float:right;
   margin: 0 0 1em 1em;
+  width: 50%;
 }
