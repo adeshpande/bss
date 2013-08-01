@@ -3,42 +3,79 @@ p
   	color:black;
   }
 
-  h1 {
-  	color:blue;
+h1 {
+  	color:grey;
   }
+
+img {
+  position:absolute;
+  height:10%;
+  width:10%;
+}
+
+
+nav {
+    position: absolute;
+    top:100px;
+    left: 0px;
+    width: 200px;
+  }
+
+#wrapper ul li{  
+  position:relative;
+  margin-left:20%;
+  max-width:500px; 
+  display:inline;
+  background: red;
+}
+
+#content {
+  margin-left: 200px;
+  top:200px;
+}
+
 
   .date{
   	color:red;
   }
 
+
   .para1 {
     position:relative;
     background-color: transparent;
-    width: 500px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 ;
     overflow: auto;
   }
 
   .para2 {
-    position: absolute;
+    position: relative;
+    background-color: transparent;
+    max-width: 500px;
+    margin: 0 ;
+    overflow: auto;
   }
 
   .para3{
     position: relative;
+    background-color: transparent;
+    max-width: 500px;
+    margin: 0 ;
+    overflow: auto;
   }
 
-.menu {
+  .menu {
     position: relative;
+    background-color: transparent;
+    max-width: 500px;
+    margin: 0 ;
+    overflow: auto;
   }
 
-.nav{
-    position: absolute;
-    left: 0px;
-    width: 200px;
-  }
 
-img {
-  float:right;
-  margin: 0 0 1em 1em;
-  width: 50%;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
